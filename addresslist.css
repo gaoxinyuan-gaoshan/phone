@@ -1,0 +1,157 @@
+html{
+    font-size: 100px;
+}
+body {
+    font-size: 16px;
+    background: #fbfeff;
+}
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: 42.66667px;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size: 54.93333px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+body{
+    margin:0;
+    padding: 0;
+    background: #fbfeff;
+    color: white;
+    /*文字回退*/
+    font-family: sans-serif;
+}
+h4, h1, h2, h3, h5, h6, ul, li, ol, p{
+    margin: 0;
+    color:#333333;
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    /* 下划线去掉*/
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: #fffff1;
+}
+header{
+    height: 0.88rem;
+    width: 100%;
+    text-align: center;
+    line-height: 0.88rem;
+    background: #ffffff;
+    font-size: 0.38rem;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(255, 126, 210, 0.13);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+header a{
+    color: #C0DAFE;
+}
+.research{
+    height: 0.88rem;
+    width: 100%;
+    padding: 0.24rem;
+    background: #e5e5e5;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0.88rem;
+    left: 0;
+    z-index: 999;
+}
+input{
+    display: block;
+    height: 100%;
+    width: 100%;
+    /*border: none;*/
+    border-radius: 0.05rem;
+    outline: none;
+    background: #FFFFFF;
+    border:1px solid #999597;
+    text-align: center;
+    line-height: 0.88rem;
+}
+main{
+    margin-top: 1.76rem;
+}
+main section{
+    padding: 0 0.24rem;
+    margin-bottom: 0.1rem;
+}
+h2{
+    font-weight: normal;
+    font-size: 0.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: 0.01rem solid #aaaa7f;
+    box-sizing: border-box;
+    position: relative;
+}
+h2::before{
+    content: '';
+    width: 100%;
+    height: 0.6rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(177, 67, 76, 0.3);
+}
+section > div{
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.2rem;
+    border-bottom: 0.01rem solid #6a68aa;
+}
+section > div a {
+    line-height: 1rem;
+    font-size: 0.2rem;
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #333333;
+}
+.slide{
+    width: 0.5rem;
+    height: auto;
+    position: fixed;
+    right: 0.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slide >li {
+    width: 100%;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #6922dd;
+}
